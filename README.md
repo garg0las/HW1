@@ -22,7 +22,7 @@ Homework for Nanas (the first one)
 3. Explain how to declare and define a function in C. What is the purpose of the
 return statement in a function? Can a function have more than one return statement?
 
-
+a function is defined by the code that is placed to the function and the function is declared when the functions name is mentioned
 
 
 
@@ -44,40 +44,49 @@ each.
 A local variable is only used for one function but it is not used for all other functions. A global variable is used for all variables.
 
 
+
 6. How are strings declared and initialized in C? What is the role of the null
 terminator ‘\0’?
 
-
+Strings are declared and initialized as an array. \0 marks the end of the string. 
 
 
 
 7. What is a pointer in C? How do you pass a pointer to a function? What
 advantages are there to passing a pointer instead of a value?
 
+The pointer can point to an address and can be modified using bitmasking.
 
 
 
-8. (2 pts) Explain how to declare and define a function in C. What is the purpose of the
-return statement in a function? Can a function have more than one return statement?
+8. What does the * operator and the & operator do in the context of pointers?
+
+the * operator lets you access the variable and the & operator lets you use the memory address
 
 
 
+9. What is the difference between while and do…while loops?
+
+while does something forever and do...while does something even if some conditions aren't true the first time.
 
 
-9. (2 pts) What is type casting? Provide an example C function that demonstrates explicit
-type casting from double to int. The function should accept two arguments that are both
-double and return their sum as an integer.
+10. What does the break statement do? How is it different from the continue
+statement?
+
+Break get you out of a function.
 
 
 
-10. (2 pts) Explain the difference between local and global variables. Provide an example of
-each.
-
-
-
-11. (2 pts) Explain the use of bitwise operators (i.e. &, |, ^, ~, <<, >>) in C. Which bitwise
+11. Explain the use of bitwise operators (i.e. &, |, ^, ~, <<, >>) in C. Which bitwise
 operators can be used to set, clear, toggle, or check a specific bit in an integer variable?
 
+bitwise operators work as digital logic. 
+& - and
+| - or 
+^ - Xor / toggle
+~ - Inverse/ not
+<< - shift left
+>> - shift right
 
 
 
