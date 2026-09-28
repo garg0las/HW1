@@ -86,7 +86,7 @@ bitwise operators work as digital logic.
 ^ - Xor / toggle
 ~ - Inverse/ not
 << - shift left
->> - shift right
+'>> - shift right'
 
 
 
